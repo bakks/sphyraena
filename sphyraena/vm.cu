@@ -1,12 +1,5 @@
 /* vim: set filetype=c : */
 /* vim: set ts=6 : */
-/* ===========================================================================
- * Copyright 2010 Peter Brownlee Bakkum
- * Permission is provided to use this for research only.
- * ------------------------------------------------------------------------ */
-
-
-
 #include <cuda.h>
 
 extern "C" {

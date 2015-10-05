@@ -1,9 +1,3 @@
-/* ===========================================================================
- * Copyright 2010 Peter Brownlee Bakkum
- * Permission is provided to use this for research only.
- * ------------------------------------------------------------------------ */
-
-
 /** 
  * Sphyraena compiler options
  *

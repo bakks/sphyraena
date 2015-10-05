@@ -1,8 +1,3 @@
-/* ===========================================================================
- * Copyright 2010 Peter Brownlee Bakkum
- * Permission is provided to use this for research only.
- * ------------------------------------------------------------------------ */
-
 #include "sphyraena.h"
 
 int sphyraena_cleanup(sphyraena *s)

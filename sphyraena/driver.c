@@ -1,9 +1,3 @@
-/* ===========================================================================
- * Copyright 2010 Peter Brownlee Bakkum
- * Permission is provided to use this for research only.
- * ------------------------------------------------------------------------ */
-
-
 // This is a driver for running Sphyraena and SQLite, example uses can be seen
 // in the provided Makefile. The arguments are: 
 // -m   Load data into SQLite memory
