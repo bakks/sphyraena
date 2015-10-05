@@ -1,18 +1,15 @@
 
 
 
-SPHYRAENA DATABASE
+# SPHYRAENA DATABASE
 
-Written Spring 2010 by Peter Brownlee Bakkum (pbb7c@virginia.edu)
+Written Spring 2010 by Peter Brownlee Bakkum (pbb7c@virginia.edu). This code corresponds to the work published as _Accelerating Database Operations on a GPU with CUDA_. The paper itself can be found [here](/papers).
 
+### LICENSE
 
-LICENSE
+This code is copyright Peter Brownlee Bakkum and licensed under the MIT License found at [/license.md](/license.md).
 
-This code is currently under copyright by Peter Brownlee Bakkum. Permission is
-provided to use the code and documentation for research only.
-
-
-Disclaimer
+### Disclaimer
 
 THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES, 
 INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY 
@@ -26,7 +23,7 @@ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-About
+## About
 
 This is an API for executing certain SQLite queries on NVIDIA GPUs. This is 
 intended exclusively for research purposes, and we make no guarantees about
@@ -46,7 +43,7 @@ found in the api.txt document in the same directory as this file. Questions,
 suggestions, etc. should be sent to pbb7c@virginia.edu.
 
 
-Environment
+## Environment
 
 This project was written and tested on several Ubuntu Linux 2.6 machines with
 Intel processors. We used CUDA 2.2, 2.3, and 3.0, and a Tesla C1060 and a GTX
@@ -94,7 +91,7 @@ write your own build instructions, since we use icc-specific optimization
 flags.
 
 
-Generating Data Sets
+## Generating Data Sets
 
 We have included the code we used for generating random data sets in the db/
 directory, and included a sample 100,000 row data set. Randomization is
@@ -121,7 +118,7 @@ Instructions for generating data sets are below.
 	SQLite data file with the name and size of your choice.
 
 
-KNOWN ISSUES
+## KNOWN ISSUES
 
 There is currently a read bug for the int64 and double datatypes that may be
 hardware related. This may give you trouble if you attempt to query using these
