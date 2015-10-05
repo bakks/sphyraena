@@ -5,6 +5,10 @@
 
 Written Spring 2010 by Peter Brownlee Bakkum (pbb7c@virginia.edu). This code corresponds to the work published as _Accelerating Database Operations on a GPU with CUDA_. The paper itself can be found [here](/papers).
 
+You can find followup work for this project at https://github.com/bakks/virginian.
+
+The code here was developed for research - its not very pretty and its far from anything you would want to use in production. Its provided here as background on the published work.
+
 ### LICENSE
 
 This code is copyright Peter Brownlee Bakkum and licensed under the MIT License found at [/license.md](/license.md).
