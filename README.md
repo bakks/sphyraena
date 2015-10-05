@@ -58,7 +58,7 @@ NVIDIA GPU. Running on Windows will probably be a little bit more difficult,
 but we have not attempted this and can't speak to the effort required.
 
 
-Building
+## Building
 
 As stated, we have not had time to test this project outside the development
 environment. Consequently, we only have our own very simple makefiles, and 
