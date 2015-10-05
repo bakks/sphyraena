@@ -1,1 +1,4 @@
 *.o
+sphyraena/debug
+sphyraena/release
+
